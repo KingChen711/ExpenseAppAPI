@@ -1,0 +1,26 @@
+POST http://localhost:5000/api/expenses
+Content-Type: application/json
+
+{
+  "name":"Shishi",
+  "amount":75,
+  "date":"2022-12-29"
+}
+
+###
+
+GET http://localhost:5000/api/expenses
+###
+
+
+PUT http://localhost:5000/api/expenses/63accf1276bf75ec963eb914
+Content-Type: application/json
+
+{
+  "name":"Trương Văn",
+  "amount":100,
+  "date":"2022-11-25"
+}
+
+###
+DELETE http://localhost:5000/api/expenses/63acd3922c99d1c217c0c700
